@@ -1,5 +1,5 @@
 # Yahtzee
-Create the game of Yatzee with text based graphics
+Create the game of Yahtzee with text based graphics
 
 Create 5 dice that roll randomly
 Create a UI that shows the dice and allows you to choose dice that can be stored
