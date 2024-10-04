@@ -1,4 +1,4 @@
-def small_straight(roll: list) -> int:
+def small_straight(roll:list) -> int:
     """
     Identify if a roll of five dice has four dice in order.
 
@@ -20,7 +20,7 @@ def small_straight(roll: list) -> int:
         return 0
 
 
-def large_straight(roll: list) -> int:
+def large_straight(roll:list) -> int:
     """
     Identify if a roll of five dice has all five dice in order.
 
