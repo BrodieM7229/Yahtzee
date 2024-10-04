@@ -38,6 +38,3 @@ def large_straight(roll: list) -> int:
         return 40
     else:
         return 0
-
-
-print(large_straight([2,3,6,4,5]))
