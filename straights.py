@@ -1,4 +1,4 @@
-def small_straight(roll:list) -> int:
+def small_straight(dice_list:list) -> int:
     """
     Identify if a roll of five dice has four dice in order.
 
@@ -13,14 +13,14 @@ def small_straight(roll:list) -> int:
     ]
 
     # Check if the first (or last) 4 dice match a small straight.
-    if (sorted(roll)[:-1] in small_straights or
-            sorted(roll)[1:] in small_straights):
+    if (sorted(dice_list)[:-1] in small_straights or
+            sorted(dice_list)[1:] in small_straights):
         return 30
     else:
         return 0
 
 
-def large_straight(roll:list) -> int:
+def large_straight(dice_list:list) -> int:
     """
     Identify if a roll of five dice has all five dice in order.
 
@@ -34,7 +34,7 @@ def large_straight(roll:list) -> int:
     ]
 
     # Check if the roll matches a straight variant.
-    if sorted(roll) in straights:
+    if sorted(dice_list) in straights:
         return 40
     else:
         return 0
