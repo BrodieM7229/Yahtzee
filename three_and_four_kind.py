@@ -27,4 +27,3 @@ def four_of_kind(roll:list):
     if roll.count(1) >= 4:
         return 4
     return 0
-
