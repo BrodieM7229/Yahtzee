@@ -1,4 +1,4 @@
-DiceList = [1,2,3,4,5]
+dice_list = [1,2,3,4,5]
 
 while True:
     user_input = input("Would you like to roll again? Y/N:")
